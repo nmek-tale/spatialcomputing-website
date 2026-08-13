@@ -18,13 +18,14 @@ hr {
 .grid-container {
     display:grid;
     grid-template-columns:  1fr 3fr;
-    margin: 5px 20px
+    margin: 5px 30px
 }
 
 /* sidebar list itself*/
 .sidebar ul {
     list-style-type: none;
     padding-right: 30px;
+    padding-left: 0;
 }
 /* text in sidebar*/
 .sidebar a {
@@ -40,7 +41,7 @@ hr {
 .sidebar {
     position:sticky;
     top: 20%;
-
+    padding-bottom: 60px;
 }
 
 /* video */
@@ -77,6 +78,9 @@ iframe {
 [id='6'] {
     margin: 5px 20px;
 }
+[id='6'] h2 {
+    margin-top: 50px;
+}
 
 /* hyperlink */
 .content a {
@@ -111,6 +115,6 @@ img {
 }
 
 #graph {
-    width: 50%;
+    width: 60%;
     height: auto;
 }
