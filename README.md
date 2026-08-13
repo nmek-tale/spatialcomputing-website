@@ -1,1 +1,0 @@
-# spatialcomputing-website

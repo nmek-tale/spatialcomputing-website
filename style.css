@@ -1,0 +1,116 @@
+body {
+    background-color: #EEEEEE;
+    margin: 0px;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* header */
+header h1 {
+    text-align: center;
+    font-size: 300%;
+    padding: 30px 0px 0px;
+    margin: 50px;
+}
+hr {
+    width: 75%;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns:  1fr 3fr;
+    margin: 5px 20px
+}
+
+/* sidebar list itself*/
+.sidebar ul {
+    list-style-type: none;
+    padding-right: 30px;
+}
+/* text in sidebar*/
+.sidebar a {
+    display:block;
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: large;
+}
+.sidebar a:hover {
+    color: rgb(78, 88, 133);
+}
+.sidebar {
+    position:sticky;
+    top: 20%;
+
+}
+
+/* video */
+iframe {
+    float:right;
+    margin: 0px 0px 30px 30px;
+}
+
+/* banner */
+.clipped-container {
+    width: 100%;
+    height: 200px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    margin-top: 100px;
+}
+.clipped-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top:0;
+    position: fixed;
+}
+
+/* bibliography */
+[id='6'] ul {
+    font-family: none;
+    margin-bottom: 100px;
+    list-style-type: none;
+    padding: 0;
+}
+[id='6'] li {
+    margin-bottom: 20px;
+}
+[id='6'] {
+    margin: 5px 20px;
+}
+
+/* hyperlink */
+.content a {
+    color:cadetblue;
+}
+.content a:hover {
+    color:rgb(127, 211, 214);
+}
+.content a:visited {
+    color:rgb(78, 88, 133);
+}
+
+/* each subheading */
+.content {
+    margin-bottom: 60px;
+}
+
+/* images */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height:300px;
+}
+
+#healthcare {
+    float: left;
+    width:40%;
+    height: auto;
+    margin: 30px 30px 30px 0px;
+}
+
+#graph {
+    width: 50%;
+    height: auto;
+}
