@@ -1,15 +1,36 @@
 body {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     margin: 0px;
     font-family: 'Verdana', sans-serif;
 }
 
 /* header */
+.hero {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "title image"
+    "desc image";
+}
+header img {
+    padding: 20dvh 0px;
+    width: 80%;
+    height: auto;
+    grid-area: image;
+}
 header h1 {
-    text-align: center;
+    grid-area: title;
+    text-align: left;
     font-size: 300%;
-    padding: 30px 0px 0px;
-    margin: 50px;
+    align-self: end;
+}
+header h3 {
+    grid-area: desc;
+    text-align: left;
+}
+header h1, h3 {
+    margin-left: 100px;
 }
 hr {
     width: 75%;
