@@ -14,7 +14,7 @@ body {
     "desc image";
 }
 header img {
-    padding: 20dvh 0px;
+    padding: 15% 0px;
     width: 80%;
     height: auto;
     grid-area: image;
