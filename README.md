@@ -5,6 +5,6 @@ Created for a school assessment, compiling and presenting my research on spatial
 - HTML5
 - CSS
 
-##Features:
+## Features:
 - side interactive navigation bar
 - interactive images
